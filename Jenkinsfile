@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = 'devops-assignment'
-        DOCKER_REGISTRY = 'nikhiltamse'
+        DOCKER_REGISTRY = 'iamdragonrider'
         DEV_SERVER = credentials('DEV_SERVER_SSH')
         PROD_SERVER = credentials('PROD_SERVER_SSH')
     }
